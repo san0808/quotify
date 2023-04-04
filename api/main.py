@@ -5,8 +5,13 @@ from torch import autocast
 from diffusers import StableDiffusionPipeline
 from io import BytesIO
 import base64 
+from dotenv import load_dotenv
 
-auth_token = "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"
+# load environment variables from .env.local file
+load_dotenv('.env.local')
+
+# read the AUTH_TOKEN value from the environment variable
+auth_token = os.getenv('AUTH_TOKEN')
 
 app = FastAPI()
 
