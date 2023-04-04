@@ -161,7 +161,7 @@ ipython-sql==0.4.1
 ipywidgets==7.7.1
 itsdangerous==2.1.2
 jax==0.4.7
-jaxlib @ https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.4.7+cuda11.cudnn86-cp39-cp39-manylinux2014_x86_64.whl
+jaxlib==0.1.70+cuda111 -f https://storage.googleapis.com/jax-releases/jax_releases.html
 jieba==0.42.1
 Jinja2==3.1.2
 joblib==1.1.1
